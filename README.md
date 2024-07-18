@@ -34,7 +34,7 @@ This project implements a simple LAN-based server-client data transferring progr
 ## Usage
 ### Run the Main.cpp
 - Enter your username
-- Choose wheter to host or join a chat
+- Choose between host or join a chat
   
 ### Messaging
 
