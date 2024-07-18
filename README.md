@@ -14,6 +14,7 @@ This project implements a simple LAN-based server-client data transferring progr
 
 - Windows operating system
 - Visual Studio or any C++ compiler supporting Winsock2
+- Cmake
 - Winsock2 library
 
 ## Installation
