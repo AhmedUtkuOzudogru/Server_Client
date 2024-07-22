@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ahmed\CLionProjects\Serrver-Client
+CMAKE_SOURCE_DIR = C:\Users\user\CLionProjects\Server_Client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ahmed\CLionProjects\Serrver-Client\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\user\CLionProjects\Server_Client\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Server_Client.dir/depend.make
@@ -69,46 +69,46 @@ include CMakeFiles/Server_Client.dir/progress.make
 include CMakeFiles/Server_Client.dir/flags.make
 
 CMakeFiles/Server_Client.dir/main.cpp.obj: CMakeFiles/Server_Client.dir/flags.make
-CMakeFiles/Server_Client.dir/main.cpp.obj: C:/Users/ahmed/CLionProjects/Serrver-Client/main.cpp
+CMakeFiles/Server_Client.dir/main.cpp.obj: C:/Users/user/CLionProjects/Server_Client/main.cpp
 CMakeFiles/Server_Client.dir/main.cpp.obj: CMakeFiles/Server_Client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ahmed\CLionProjects\Serrver-Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server_Client.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_Client.dir/main.cpp.obj -MF CMakeFiles\Server_Client.dir\main.cpp.obj.d -o CMakeFiles\Server_Client.dir\main.cpp.obj -c C:\Users\ahmed\CLionProjects\Serrver-Client\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\CLionProjects\Server_Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server_Client.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_Client.dir/main.cpp.obj -MF CMakeFiles\Server_Client.dir\main.cpp.obj.d -o CMakeFiles\Server_Client.dir\main.cpp.obj -c C:\Users\user\CLionProjects\Server_Client\main.cpp
 
 CMakeFiles/Server_Client.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Server_Client.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ahmed\CLionProjects\Serrver-Client\main.cpp > CMakeFiles\Server_Client.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\Server_Client\main.cpp > CMakeFiles\Server_Client.dir\main.cpp.i
 
 CMakeFiles/Server_Client.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Server_Client.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ahmed\CLionProjects\Serrver-Client\main.cpp -o CMakeFiles\Server_Client.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\Server_Client\main.cpp -o CMakeFiles\Server_Client.dir\main.cpp.s
 
 CMakeFiles/Server_Client.dir/Server.cpp.obj: CMakeFiles/Server_Client.dir/flags.make
-CMakeFiles/Server_Client.dir/Server.cpp.obj: C:/Users/ahmed/CLionProjects/Serrver-Client/Server.cpp
+CMakeFiles/Server_Client.dir/Server.cpp.obj: C:/Users/user/CLionProjects/Server_Client/Server.cpp
 CMakeFiles/Server_Client.dir/Server.cpp.obj: CMakeFiles/Server_Client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ahmed\CLionProjects\Serrver-Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server_Client.dir/Server.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_Client.dir/Server.cpp.obj -MF CMakeFiles\Server_Client.dir\Server.cpp.obj.d -o CMakeFiles\Server_Client.dir\Server.cpp.obj -c C:\Users\ahmed\CLionProjects\Serrver-Client\Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\CLionProjects\Server_Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server_Client.dir/Server.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_Client.dir/Server.cpp.obj -MF CMakeFiles\Server_Client.dir\Server.cpp.obj.d -o CMakeFiles\Server_Client.dir\Server.cpp.obj -c C:\Users\user\CLionProjects\Server_Client\Server.cpp
 
 CMakeFiles/Server_Client.dir/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Server_Client.dir/Server.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ahmed\CLionProjects\Serrver-Client\Server.cpp > CMakeFiles\Server_Client.dir\Server.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\Server_Client\Server.cpp > CMakeFiles\Server_Client.dir\Server.cpp.i
 
 CMakeFiles/Server_Client.dir/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Server_Client.dir/Server.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ahmed\CLionProjects\Serrver-Client\Server.cpp -o CMakeFiles\Server_Client.dir\Server.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\Server_Client\Server.cpp -o CMakeFiles\Server_Client.dir\Server.cpp.s
 
 CMakeFiles/Server_Client.dir/Client.cpp.obj: CMakeFiles/Server_Client.dir/flags.make
-CMakeFiles/Server_Client.dir/Client.cpp.obj: C:/Users/ahmed/CLionProjects/Serrver-Client/Client.cpp
+CMakeFiles/Server_Client.dir/Client.cpp.obj: C:/Users/user/CLionProjects/Server_Client/Client.cpp
 CMakeFiles/Server_Client.dir/Client.cpp.obj: CMakeFiles/Server_Client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ahmed\CLionProjects\Serrver-Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server_Client.dir/Client.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_Client.dir/Client.cpp.obj -MF CMakeFiles\Server_Client.dir\Client.cpp.obj.d -o CMakeFiles\Server_Client.dir\Client.cpp.obj -c C:\Users\ahmed\CLionProjects\Serrver-Client\Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\CLionProjects\Server_Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server_Client.dir/Client.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_Client.dir/Client.cpp.obj -MF CMakeFiles\Server_Client.dir\Client.cpp.obj.d -o CMakeFiles\Server_Client.dir\Client.cpp.obj -c C:\Users\user\CLionProjects\Server_Client\Client.cpp
 
 CMakeFiles/Server_Client.dir/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Server_Client.dir/Client.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ahmed\CLionProjects\Serrver-Client\Client.cpp > CMakeFiles\Server_Client.dir\Client.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\Server_Client\Client.cpp > CMakeFiles\Server_Client.dir\Client.cpp.i
 
 CMakeFiles/Server_Client.dir/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Server_Client.dir/Client.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ahmed\CLionProjects\Serrver-Client\Client.cpp -o CMakeFiles\Server_Client.dir\Client.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\Server_Client\Client.cpp -o CMakeFiles\Server_Client.dir\Client.cpp.s
 
 # Object files for target Server_Client
 Server_Client_OBJECTS = \
@@ -126,7 +126,7 @@ Server_Client.exe: CMakeFiles/Server_Client.dir/build.make
 Server_Client.exe: CMakeFiles/Server_Client.dir/linkLibs.rsp
 Server_Client.exe: CMakeFiles/Server_Client.dir/objects1.rsp
 Server_Client.exe: CMakeFiles/Server_Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ahmed\CLionProjects\Serrver-Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Server_Client.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\user\CLionProjects\Server_Client\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Server_Client.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Server_Client.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/Server_Client.dir/clean:
 .PHONY : CMakeFiles/Server_Client.dir/clean
 
 CMakeFiles/Server_Client.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ahmed\CLionProjects\Serrver-Client C:\Users\ahmed\CLionProjects\Serrver-Client C:\Users\ahmed\CLionProjects\Serrver-Client\cmake-build-debug C:\Users\ahmed\CLionProjects\Serrver-Client\cmake-build-debug C:\Users\ahmed\CLionProjects\Serrver-Client\cmake-build-debug\CMakeFiles\Server_Client.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\user\CLionProjects\Server_Client C:\Users\user\CLionProjects\Server_Client C:\Users\user\CLionProjects\Server_Client\cmake-build-debug C:\Users\user\CLionProjects\Server_Client\cmake-build-debug C:\Users\user\CLionProjects\Server_Client\cmake-build-debug\CMakeFiles\Server_Client.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Server_Client.dir/depend
 

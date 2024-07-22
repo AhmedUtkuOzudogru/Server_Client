@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ahmed/CLionProjects/Serrver-Client/cmake-build-debug",
-		"source" : "C:/Users/ahmed/CLionProjects/Serrver-Client"
+		"build" : "C:/Users/user/CLionProjects/Server_Client/cmake-build-debug",
+		"source" : "C:/Users/user/CLionProjects/Server_Client"
 	},
 	"version" : 
 	{

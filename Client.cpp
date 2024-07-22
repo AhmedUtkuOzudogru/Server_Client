@@ -12,6 +12,7 @@ using namespace std;
 
 namespace ClientNamespace {
     atomic<bool> shouldExit(false);
+    atomic<bool> serverShutdown(false);
 
     void receiveMessages(SOCKET clientSocket) {
         char recvBuffer[512];
@@ -20,8 +21,17 @@ namespace ClientNamespace {
             if (byteCount > 0) {
                 recvBuffer[byteCount] = '\0';
                 cout << recvBuffer << endl;
+
+                // Check if the server sent a shutdown message
+                if (string(recvBuffer).find("Disconnecting from client...") != string::npos) {
+                    cout << "Server is shutting down. Disconnecting..." << endl;
+                    serverShutdown = true;
+                    shouldExit = true;
+                    break;
+                }
             } else if (byteCount == 0) {
                 cout << "Server disconnected." << endl;
+                serverShutdown = true;
                 break;
             } else {
                 cout << "recv() failed: " << WSAGetLastError() << endl;
@@ -29,6 +39,7 @@ namespace ClientNamespace {
             }
         }
     }
+
 
     void sendMessages(SOCKET clientSocket, std::string username) {
         string sendBuffer;
@@ -112,5 +123,11 @@ int Client::clientFunction(std::string username) {
     cout << "=== Cleanup ===\n";
     WSACleanup();
     cout << "Disconnected from server." << endl;
+
+    // Check if the disconnection was due to server shutdown
+    if (ClientNamespace::serverShutdown) {
+        cout << "Returning to main menu..." << endl;
+        return 1;  // Return a specific value to indicate server shutdown
+    }
     return 0;
 }
